@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-09T19:39:04.779Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="ctW4I7h8Ev3-ax0Iw94b" version="15.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-09T19:40:08.521Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="6aYiRcZf8Wc8Se-lD-DE" version="15.1.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2272" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,20 +22,16 @@
         <mxCell id="b19eHCCUPlFQnzbPp85T-4" value="Request to verify&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b19eHCCUPlFQnzbPp85T-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b19eHCCUPlFQnzbPp85T-6" target="b19eHCCUPlFQnzbPp85T-9" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="b19eHCCUPlFQnzbPp85T-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b19eHCCUPlFQnzbPp85T-6" target="b19eHCCUPlFQnzbPp85T-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="720" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="b19eHCCUPlFQnzbPp85T-6" value="Verify kafka" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="b19eHCCUPlFQnzbPp85T-6" value="Verify Kafka" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-70" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b19eHCCUPlFQnzbPp85T-8" value="Verify Memory" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="b19eHCCUPlFQnzbPp85T-8" value="Verify Memory&lt;br&gt;Threshold" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-70" y="640" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="b19eHCCUPlFQnzbPp85T-45" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" parent="1" source="b19eHCCUPlFQnzbPp85T-9" target="b19eHCCUPlFQnzbPp85T-44" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="b19eHCCUPlFQnzbPp85T-9" value="Verify CPU" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-70" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b19eHCCUPlFQnzbPp85T-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b19eHCCUPlFQnzbPp85T-10" target="b19eHCCUPlFQnzbPp85T-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -96,7 +92,7 @@
         <mxCell id="b19eHCCUPlFQnzbPp85T-32" value="is Healthy?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="250" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="b19eHCCUPlFQnzbPp85T-5" value="Verify redis" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="b19eHCCUPlFQnzbPp85T-5" value="Verify Redis" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-70" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b19eHCCUPlFQnzbPp85T-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="b19eHCCUPlFQnzbPp85T-2" target="b19eHCCUPlFQnzbPp85T-5" edge="1">
